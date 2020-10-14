@@ -1,0 +1,21 @@
+.Bio{
+  border: 30px solid pink;
+  padding: 4px;
+  background-color: rgb(87, 201, 221);
+  display: block;
+  margin: auto;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.Songs{
+  border: 10px solid pink;
+
+}
+
+.image{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
+}
