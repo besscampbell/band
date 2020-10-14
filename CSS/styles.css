@@ -2,15 +2,20 @@
   border: 30px solid pink;
   padding: 4px;
   background-color: rgb(87, 201, 221);
-  display: block;
   margin: auto;
   width: 50%;
   box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
 }
 
 .Songs{
   border: 10px solid pink;
-
+  margin: auto;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .image{
@@ -18,4 +23,18 @@
   width: 50%;
   height: auto;
   display: block;
+}
+
+.column{
+  margin: center;
+  width: 33.33%;
+  float: left;
+  padding: 1px;
+  column-gap: 1px;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(251,63,136);
+  background: radial-gradient(circle, rgba(251,63,136,1) 0%, rgba(56,201,199,1) 26%, rgba(60,60,31,1) 100%);
 }
